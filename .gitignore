@@ -2,6 +2,7 @@ cd4ml-workshop/*
 nginx/*
 .venv/*
 .vscode/*
+.python-version
 **/.DS_Store
 python/*.venv
 data/raw/*
@@ -20,6 +21,7 @@ results
 *.prof
 bad_code.py
 test/mlruns/*
+
 # Jenkins Files
 jenkins/jenkins-admin-password.txt
 creds.txt

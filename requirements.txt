@@ -12,8 +12,7 @@ arrow==0.15.5
 wickedhot==0.2.5
 boto3==1.14.41
 requests-mock==1.8.0
-ipykernel
-jupyterlab==3
+
 # Testing Dependencies
 flake8==3.7.8
 flake8-print==3.1.4

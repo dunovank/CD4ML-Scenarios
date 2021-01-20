@@ -42,7 +42,8 @@ def _get_model_file_templates(model_results_dir):
         'encoder': '%s/encoder.json' % model_results_dir,
         'full_model': '%s/%s' % (model_results_dir, _model_file_name),
         'validation_plot': '%s/validation_plot.html' % model_results_dir,
-        'results_folder': model_results_dir
+        'results_folder': model_results_dir,
+        'results_dir': model_results_dir
     }
 
     return file_names_model

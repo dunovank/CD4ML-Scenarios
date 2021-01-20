@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    triggers { 
+    triggers {
         // Poll SCM every minute for new changes
         pollSCM('* * * * *')
     }
@@ -8,7 +8,7 @@ pipeline {
        // add timestamps to output
        timestamps()
     }
-    environment { 
+    environment {
         MLFLOW_TRACKING_URL = 'http://mlflow:5000'
     }
     stages {
